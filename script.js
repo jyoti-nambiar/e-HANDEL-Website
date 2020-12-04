@@ -51,9 +51,9 @@ let products = [
 for (let i = 0; i < carts.length; i++) {
     carts[i].addEventListener("click", () => {
         cartnumbers(products[i]);
-
+        console.log(products[i]);
     });
-};
+}; .
 
 
 function onLoadCartValue() {
