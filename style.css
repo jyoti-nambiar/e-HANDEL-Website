@@ -1,0 +1,90 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+header{
+background-image: url("caitlyn-de-wild-WoakYOlsqfg-unsplash.jpg");
+background-repeat: no-repeat;
+height:60vh;
+background-position: center;
+background-size: cover;
+position:relative;
+}
+
+
+.overlay{
+position: absolute;
+top:0;
+left:0;
+right:0;
+}
+
+nav{
+position: absolute;
+top:0;
+left:0;
+right:0;
+display:flex;
+flex-wrap:wrap;
+justify-content: space-between;
+margin:10px;
+}
+nav h2{
+    color:white;
+    font-size:2rem;
+    text-shadow: 2px 2px 4px #ec0606
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    
+}
+
+li a{
+    margin:5px;
+    text-decoration: none;
+    font-size:1.25rem;
+    color:white;
+    text-shadow: 2px 2px 4px #000000
+}
+
+
+
+#shoppingCart--div{
+background:white;
+width:300px;
+height:auto;
+}
+
+
+button a{
+    text-decoration: none; 
+}
+
+.container{
+    margin:50px 20px;
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+.image{
+display:inline-block;
+margin:20px 30px;
+/*border:1px solid black;*/
+border-radius: 10px;
+background:#b4b4eb;
+text-align: center;
+overflow: hidden;
+}
+
+#cupcake-1{
+height:300px;
+width:300px;
+}
+
